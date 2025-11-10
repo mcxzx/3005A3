@@ -12,7 +12,7 @@ import dbinteract.StudentDB;
 
 //...
 
-Connection desired_connection_object = DriverManager.getConnection(url, user, password);
+Connection desired_connection_object = new DriverManager.getConnection(url, user, password);
 
 //...
 
@@ -35,6 +35,7 @@ One can copy/open its query into pgAdmin and execute in a desired database, whic
 ## Demonstration
 
 YoutubeVideo: https://www.youtube.com/watch?v=L5Dob-B-S-8
+
 
 
 
