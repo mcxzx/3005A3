@@ -17,7 +17,7 @@ Connection desired_connection_object = DriverManager.getConnection(url, user, pa
 //...
 
 
-StudentDB db = StudentDB(desired_connection_object);
+StudentDB db = new StudentDB(desired_connection_object);
 
 db.getAllStudents();
 //...
@@ -35,6 +35,7 @@ One can copy/open its query into pgAdmin and execute in a desired database, whic
 ## Demonstration
 
 YoutubeVideo: https://www.youtube.com/watch?v=L5Dob-B-S-8
+
 
 
 
