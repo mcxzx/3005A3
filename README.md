@@ -6,7 +6,7 @@ To run it, one could either execute directly in the repo by changing postgreSQL 
 
 The sample invokation is as follows:
 
-```
+```java
 import dbinteract.StudentDB;
 
 
@@ -35,6 +35,7 @@ One can copy/open its query into pgAdmin and execute in a desired database, whic
 ## Demonstration
 
 YoutubeVideo: https://www.youtube.com/watch?v=L5Dob-B-S-8
+
 
 
 
